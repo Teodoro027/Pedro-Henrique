@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    
+
+    <script>
+
+function escolha1(){
+var html = '<div class="container">';
+html += '<p> Militar fugiu com o barco e ouviu uns barulhos estranho, dentro do barco tinha uma caixa, dentro da caixa tinha uma bomba, o Militar acabou morrendo por causa dessa bomba </p>'
+html += '<img src="morto.jpg" alt="Image" height="500" width="600">';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+
+function escolha2(){
+var html = '<div class="container">';
+html += '<p> O Militar ficou na ilha e encontoru uma caixa! </p>'
+html += '<img src="caixa.jpg" alt="Image" height="500" width="600">';
+html += '<button onclick="escolha4()"> Militar abrir a caixa</button>';
+html += '<button onclick="escolha3()">Continua andando</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+
+function escolha3(){
+var html = '<div class="container">';
+html += '<p>O militar continuou andando e acabou pisando numa mina terrestre, e ele morreu.</p>'
+html += '<img src="mina terrestre.jpg" alt="Image" height="500" width="600">';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+
+function escolha4(){
+var html = '<div class="container">';
+html += '<p>O Militar abriu a caixa, e encontrou um mapa que leva ate um helicóptero</p>'
+html += '<img src="mapa.jpg" alt="Image" height="500" width="600">';
+html += '<button onclick="escolha5()"> Seguir o mapa</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function escolha5(){
+var html = '<div class="container">';
+html += '<p>O Militar seguiu o mapa e encontrou o helicóptero e  conseguiu ir embora embora da ilha.</p>';
+html += '<img src="p.jpg" alt="Image" height="500" width="600">';
+html += '<br>';
+html += '<p>O Militar conseguiu sair da ilha, ele chegou na base militar de onde ele era, e ele viu um monte de militar morto, mas ele encontrou um  amigo dele quase morrendo, ai ele foi ate o amigo dele, e o meu amigo dele disse que o, "o chefe fez isso tudo matou todo mundo" , o amigo dele disse também  que, "o chefe deixou voce numa ilha preso para voce não impedir ele de mata todo mundo", e depois disso o amigo dele acabou morrendo.</p>';
+html += '<img src="h.jpg" alt="Image" height="500" width="600">';
+html += '<button onclick="escolha6()">fazer a vingança do amigo</button>';
+html += '<button onclick="escolha7()">Fugir do chefe </button>';
+
+
+$( "body" ).append( html );
+}
+
+function escolha6(){
+var html = '<div class="container">';
+html += '<p>Ele foi atraz do chefe dele e acabou encontrando ele na sala dele, ele entrou de supresa e o chefe não esperava dele, o chefe dele fez uma cara de medo.</p>'
+html += '<img src="gfd.jpg" alt="Image" height="500" width="600">';
+html += '<button onclick="escolha8()">Conversa com chefe</button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function escolha7(){
+var html = '<div class="container">';
+html += '<p>ele tentou fugir do chefe mas o chefe acabou vendo ele na camera, foi atraz dele e matou o militar.</p>';
+html += '<img src="teo.jpg" alt="Image" height="500" width="600">';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+function escolha8(){
+var html = '<div class="container">';
+html += '<h1>CONVERSA DO CHEFE E O MILITAR.</h1>';
+html += '<p>chefe:Como vc chegou aqui, eu te deixei numa ilha preso la, eu deixei um barco com uma bomba, e voce conseguiu escapar, mas agora que vc ta aqui, eu e voce pode se juntar, eu te dou tudo que vc quiser.</p>';
+html += '<p>O Militar disse: Eu nao quero nada de você, eu so quero sua morte, voce matou muitos amigos meus e matou ate meu melhor amigo, agora eu vou fazer a vingança deles.</p>';
+html += '<p>O chefe puxa uma 🔫...</p>';
+html += '<p>Chefe:como você vai me matar, eu to com uma 🔫, nao tem como voce conseguir sobreviver agr.</p>';
+html += '<p> O chefe atira so que o Militar consegue desviar da bala, ai ele se esconder do chefe, mas o Militar so tem uma faca, ele fica escondido para pegar o chefe e tirar a arma dele.</p>';
+html += '<img src="ee.jpg" alt="Image" height="500" width="600">';
+html += '<button onclick="escolha9()">Pegar o chefe pela costa</button>';
+html += '<button onclick="escolha10()">Tentar fugir </button>';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+function escolha9(){
+var html = '<div class="container">';
+html += '<p>O Militar pegou o chefe e tirou a 🔫 da mão dele e lutou contra ele, o Militar espancou o chefe ate ele cair, ai o chefe diz pra ele.</p>';
+html += '<p>Chefe: Por que voce que me matar, assim você nao vai trazer seus amigos de volta</p>';
+html += '<p> O Militar diz...</p>';
+html += '<p>Eu não ligo para oque voce diz, eu so quero ter a vingança deles.</p>';
+html += '<p>O Militar atira e matar o chefe.</p>';
+html += '<p>Depois desse negócio todo, o Militar se aposentar, e vai viver sua vida feliz com sua familia.</p>'
+html += '<img src="feliz.jpg" alt="Image" height="500" width="600">';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+function escolha10(){
+var html = '<div class="container">';
+html += '<p>O militar tentou fugir e chefe conseguiu ver ele, o chefe deu um tiro nele e matou o militar.</p>';
+html += '<img src="final.jpg" alt="Image" height="500" width="600">';
+html += '</div>'
+
+$( "body" ).append( html );
+}
+
+    </script>
+
+
+<style>
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 500px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+
+    <div class="container">
+    <h1> A GRANDE VIAGNÇA DE TEODORO! </h1>
+    <p> Militar acordou numa ilha preso e tem um barco. </p>
+    <img src="ph.img" alt="Image" height="500" width="600">
+    <br>
+
+    <button onclick="escolha1()">Fugir com o barco!</button>
+    <button onclick="escolha2()">Fica na ilha!</button>
+    </div>
+
+    
+
+
+
+</body>
+</html>
